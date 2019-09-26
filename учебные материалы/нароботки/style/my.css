@@ -1,0 +1,22 @@
+p {
+    background: burlywood;
+    font-size: 20px;
+}
+.one{
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    font-size: 30px;
+}
+/*a:visited {
+    color: gray;*/
+
+p:first-letter{
+    font-size: 30px;
+}
