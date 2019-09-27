@@ -158,4 +158,58 @@
 
 </form>
 
+ФОРМА ОБРАТНОЙ СВЯЗИ
+
+form>
+    <fieldset disabled>
+        <legend>Форма обратной связи</legend><p>Имя: <input
+            type="text" size="30"></p>
+        <p>Email: <input type="text" size="30"></p>
+        <p>Тема: <input type="text" size="30"></p>
+        <p>Сообщение: <textarea>Пишите свое сообщение здесь</textarea></p>
+        <p><input type="submit"></p></fieldset>
+</form>
+
+
+кнопки
+
+
+<form>
+
+<input type="submit" value="Send Now">
+ <p>Кто посоветовал вам наш вебсайт?:<br>
+    <input type="text" name="Referrer" value="Google"></p>
+<p>Pink: <input type="radio" name="color" value="pink"></p>
+<p>Red: <input type="radio" name="color" value="red"></p>
+
+
+</form>
+
+
+поле с выбором
+
+<form>
+    <select name="color">
+        <option value="tan">Windswept Sand Dune</option>
+        <option value="green">Lush Forest</option>
+        <option value="blue">Turbulent Waters</option>
+        <option value="black">Deep Night</option>
+    </select>
+
+</form>    
+
+
+поле имя .возраст .подтвердить
+<form>
+    <style>
+         .submitButton { padding: 10px 20px; margin-top: 10px; background-color: #ddd; border-radius: 5px; display: inline-block; } .submitButton:hover { background-color: #ccc; } .submitButton:active { background-color: #ddd; }
+    </style>
+    <form><label for="name">ИМЯ: </label><input type="text" name="name"><br> <label for="age">Возраст: <input type="text"
+                                                                                                           name="age"><br>
+        <span class="submitButton">Подтвердить</span></form>
+
+
+</form>
+
+
 

@@ -1,0 +1,53 @@
+body{
+    background: rgba(50,122,160,0.3); /*чветовой тон red, green, blue, alpha*/
+    padding: 40px 40px 40px 40px;    /*отступы с верху по часовой стрелке*/
+    margin: 0;                       /* внешние  отступы с верху по часовой стрелке*/
+}
+
+article{
+    max-width:700px;                /*максимальная ширина*/
+    margin :0 auto;                 /*marin отступы где 0 зачит без отступов
+                                    а auto автоматическое выравнивание по центру*/
+}
+
+p{
+    color: rgba(250,250,250,1);
+    font-size:20px;              /* размер шрифта*/
+    font-family:/*'Mansalva'*/, cursive;, Arial,Helvetica; /* font-family ето стиль шрифта шрифты можно подлючать из сайта
+                                                        https://fonts.google.com Выбрав стьль в style.css промисывается
+                                                        имя .А в head ссылка на стиль*/
+}
+h1, h2,h2{
+     color: rgba(50,250,250,1);
+     font-family:Arial, "Palatino Linotype", serif;
+     border-bottom:3px solid grey;                  /*граница.линия border просто это рамка вокруг . можно добовлять
+                                                     сверху.слева.српава.снизу*/
+      padding-left:60px;                            /*одступ .можно с любой стороны*/
+}
+h1{
+    font-size:50px;
+}
+#logo{
+    font-family: Baskerville, Palatino, sans-serif;
+    font-size:30px;
+    color: rgba(123,21,231,0.5);
+    font-style: italic;                             /*istlic текст курсивом*/
+    text-align: center;                             /*выравнивание текста по центру*/
+    margin-bottom: 100px;                           /*отступ */
+    background: rgba(2,201,5,0.7);
+    border-radius: 8px 8px 20px 20px;             /*скругление углов*/
+    padding:20px;                                     /*отступ*/
+}
+
+.note{
+    color: #0E100E;                         /*чвет текста*/
+    border: 5px solid #F3F024;              /*границы и цвет обводки*/
+    background:rgba(82,89,218,1);           /*задний фон*/
+    margin-top: 30px;                       /*одступ с верху*/
+    margin-bottom: 30px;                    /*одступ с низу*/
+    padding: 20px;                         /*размер колонки*/
+}
+
+
+
+

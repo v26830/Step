@@ -1,8 +1,27 @@
 1) git init
 
-2) git add.
+git status
+
+2) git add .
+
+git status
 
 3) git commit -m "Add all my files"
+
+git config user.name v26830
+git config user.email v26830@gmail.com
+
+git commit -m "Add all my filesизменяемый коментарий"
+
+git push origin master
+
+
+
+
+
+
+
+
 
 4) git remote add origin https://github.com/yourusername/your-repo-name.git
 
@@ -13,5 +32,30 @@
 6) git push origin master
 
 
+Скачиваем рипозиторий
 
+git clone https://github.com/v26830/Step.git
 
+Переходим впапку скачаного репозитория и настраиваем его:
+git config user.name v26830
+git config user.email v26830@gmail.com
+
+Воспользовавшись командой git status можно узнать, на какой ветке (branch) репозитория вы сейчас находитесь, какие изменения присутствуют в вашей рабочей копии и другую информацию.
+
+git status
+
+git commit -a
+
+git pull
+
+git add -A
+
+ git commit -m
+ 
+ git push
+ 
+ Запрос логина и пороля
+ git commit -a
+
+ 
+учебные материалы/нароботки/.directory
